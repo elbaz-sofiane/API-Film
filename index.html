@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TROUVE TON FILM !</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+      <h1>TROUVE TON FILM !</h1>
+    </header>
+  <div class="card">
+
+
+    <div class="recherche">
+      <input type="text" id="titre" placeholder="Titre du film (ex. Interstellar)" />
+      <br>
+      <button id="btn-recherche">Rechercher</button>
+        <br>
+    </div>
+
+
+    <div id="error" class="error" style="display:none;color:red;"></div> 
+
+
+
+    <div id="result" class="result" style="display:none">
+      <div class="poster" id="poster">
+        <span id="posterPlaceholder">Affiche</span>
+      </div>
+      <div class="meta">
+        <h2 id="titreFilm"></h2>
+        <div id="annee-genre"></div>
+        <div class="plot" id="synopsis"></div>
+        <div class="ratings" id="note"></div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>© 2024 - Réalisé par ELBAZ Sofiane a l'aide de l'API TMDb</p>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
