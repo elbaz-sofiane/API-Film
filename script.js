@@ -1,4 +1,3 @@
-// ✅ Clé API TMDb (ne pas exposer publiquement sur un vrai site)
 const API_KEY = "c19b6d04ac70bcca1e91626de3e59f0d";
 
 document.getElementById("btn-recherche").addEventListener("click", () => { // qd btn recherche cliqué
@@ -62,3 +61,4 @@ document.getElementById("btn-recherche").addEventListener("click", () => { // qd
             console.error(err);
         });
 });
+
